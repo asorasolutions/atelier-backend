@@ -1,3 +1,7 @@
+# Git
+.git/
+.gitignore
+
 # Python
 __pycache__/
 *.py[cod]
@@ -7,9 +11,6 @@ build/
 dist/
 wheels/
 *.egg-info/
-*.egg
-
-# Virtual environments
 .venv/
 
 # Environment variables
@@ -22,7 +23,6 @@ wheels/
 .vscode/
 *.swp
 *.swo
-*~
 
 # OS
 .DS_Store
@@ -34,9 +34,13 @@ Thumbs.db
 htmlcov/
 .pytest_cache/
 .mypy_cache/
-
-# Ruff
 .ruff_cache/
 
+# Docs
+README.md
+LICENSE
+
 # Docker
-docker-compose.override.yml
+Dockerfile
+docker-compose*.yml
+.dockerignore
